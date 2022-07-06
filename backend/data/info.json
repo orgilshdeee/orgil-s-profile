@@ -2,6 +2,7 @@
   {
     "header": "Hello I'm Header",
     "body": "Hello I'm Body",
-    "info": "Hello I'm Orgil's Information"
+    "info": "Hello I'm Orgil's Information",
+    "img": "https://dogecoin.com/assets/img/doge.png"
   }
 ]

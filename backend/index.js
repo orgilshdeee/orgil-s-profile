@@ -7,4 +7,4 @@ app.get("/", (req, res) => {
   const temp = fs.readFileSync("./data/info.json", "utf-8");
   res.send(temp);
 });
-app.listen("3000");
+app.listen("3001");
