@@ -1,5 +1,5 @@
 const main = async (credentials) => {
-  return await fetch("http://localhost:3001/", {
+  return await fetch("http://localhost:3000/", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -9,13 +9,18 @@ const main = async (credentials) => {
 };
 
 const name = async (credentials) => {
-  return await fetch("http://localhost:3001/name", {
+  return await fetch("http://localhost:3000/name", {
     method: "POST",
     headers: {
       "Content-type": "application/json",
     },
     body: JSON.stringify(credentials),
   });
+};
+
+export const profileServices = {
+  main,
+  name,
 };
 // const age
 // const major
