@@ -13,8 +13,12 @@ export default function Description() {
   return (
     <div id="descip" className="container">
       <img src={data?.img} alt="pic" id="profImg" />
-      <div id="header">{data?.header}</div>
-      <div id="body">{data?.body}</div>
+      <h1 id="header" className="mt-5">
+        {data?.header}
+      </h1>
+      <div id="body" className="mt-5">
+        {data?.body}
+      </div>
     </div>
   );
 }
