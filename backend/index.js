@@ -1,19 +1,43 @@
 const express = require("express");
 const app = express();
 const fs = require("fs");
+const cors = require("cors");
 
-app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "http://localhost:3001/");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
-  next();
-});
-app.get("/", (req, res) => {
-  console.log("testing");
-  const temp = fs.readFileSync("./data/info.json", "utf-8");
-  // res.json(temp);
+app.use(
+  cors({
+    origin: "*",
+    methods: ["GET", "POST", "DELETE", "UPDATE", "PUT", "PATCH"],
+  })
+);
+
+app.get("/", cors(), (req, res) => {
+  console.log("sending description.json");
+  const temp = fs.readFileSync("./data/description.json", "utf-8");
   res.send(temp);
 });
+
+app.get("/profile", cors(), (req, res) => {
+  console.log("sending profile.json");
+  const temp = fs.readFileSync("./data/profile.json", "utf-8");
+  res.send(temp);
+});
+
+app.get("/major", cors(), (req, res) => {
+  console.log("sending major.json");
+  const temp = fs.readFileSync("./data/major.json", "utf-8");
+  res.send(temp);
+});
+
+app.get("/name", cors(), (req, res) => {
+  console.log("sending name.json");
+  const temp = fs.readFileSync("./data/name.json", "utf-8");
+  res.send(temp);
+});
+
+app.get("/age", cors(), (req, res) => {
+  console.log("sending age.json");
+  const temp = fs.readFileSync("./data/age.json", "utf-8");
+  res.send(temp);
+});
+
 app.listen("3000");
