@@ -1,12 +1,56 @@
 #descip {
   margin-top: 100px;
+  color: deeppink;
+  width: 30%;
 }
 #profImg {
   border-radius: 50%;
   border: 1px solid black;
   width: 300px;
   height: 300px;
+  background-color: white;
 }
-#header {
-  width: 30%;
+#root {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/003/627/132/non_2x/nature-scene-background-with-rainbow-in-the-sky-free-vector.jpg");
+  background-size: cover;
+  height: 100vh;
+}
+#body {
+  font-size: 1.1rem;
+}
+#peepo1 {
+  width: 5%;
+  top: 65%;
+  right: 75%;
+  position: absolute;
+}
+#peepo2 {
+  width: 6%;
+  top: 65%;
+  right: 25%;
+  position: absolute;
+}
+#peepo3 {
+  width: 5%;
+  top: 65%;
+  right: 68%;
+  position: absolute;
+}
+#peepo4 {
+  width: 5%;
+  top: 65%;
+  right: 17%;
+  position: absolute;
+}
+#peepo5 {
+  width: 5%;
+  top: 65%;
+  right: 8%;
+  position: absolute;
+}
+#peepo6 {
+  width: 5%;
+  top: 76.2%;
+  right: 55%;
+  position: absolute;
 }

@@ -1,12 +1,18 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { profileServices } from "../../services/service";
+import "../../styles/age.css";
 
 export default function Age() {
+  const [data, setData] = useState();
   useEffect(() => {
     profileServices
       .age()
       .then((res) => res.json())
-      .then((res) => console.log(res));
+      .then((res) => setData(res));
   }, []);
-  return <>Hello I'm Age</>;
+  return (
+    <div id="age" className="container">
+      <h1>{data?.age}</h1>
+    </div>
+  );
 }

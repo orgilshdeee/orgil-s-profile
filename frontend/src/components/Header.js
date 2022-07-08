@@ -6,15 +6,15 @@ import "../styles/header.css";
 export default function Header() {
   const [style, setStyle] = useState({
     des: { color: "blueviolet" },
-    prof: { color: "black" },
-    major: { color: "black" },
-    name: { color: "black" },
-    age: { color: "black" },
+    prof: { color: "deeppink" },
+    major: { color: "deeppink" },
+    name: { color: "deeppink" },
+    age: { color: "deeppink" },
   });
 
   return (
     <div id="header" className="w-100">
-      <Navbar bg="light" id="navbar">
+      <Navbar bg="" id="navbar">
         <Link
           to="/home"
           className="nav-link ms-5"
@@ -23,10 +23,10 @@ export default function Header() {
           onClick={() => {
             setStyle({
               des: { color: "blueviolet" },
-              prof: { color: "black" },
-              major: { color: "black" },
-              name: { color: "black" },
-              age: { color: "black" },
+              prof: { color: "deeppink" },
+              major: { color: "deeppink" },
+              name: { color: "deeppink" },
+              age: { color: "deeppink" },
             });
           }}
         >
@@ -39,11 +39,11 @@ export default function Header() {
           style={style.prof}
           onClick={() => {
             setStyle({
-              des: { color: "black" },
+              des: { color: "deeppink" },
               prof: { color: "blueviolet" },
-              major: { color: "black" },
-              name: { color: "black" },
-              age: { color: "black" },
+              major: { color: "deeppink" },
+              name: { color: "deeppink" },
+              age: { color: "deeppink" },
             });
           }}
         >
@@ -56,11 +56,11 @@ export default function Header() {
           style={style.major}
           onClick={() => {
             setStyle({
-              des: { color: "black" },
-              prof: { color: "black" },
+              des: { color: "deeppink" },
+              prof: { color: "deeppink" },
               major: { color: "blueviolet" },
-              name: { color: "black" },
-              age: { color: "black" },
+              name: { color: "deeppink" },
+              age: { color: "deeppink" },
             });
           }}
         >
@@ -73,11 +73,11 @@ export default function Header() {
           style={style.name}
           onClick={() => {
             setStyle({
-              des: { color: "black" },
-              prof: { color: "black" },
-              major: { color: "black" },
+              des: { color: "deeppink" },
+              prof: { color: "deeppink" },
+              major: { color: "deeppink" },
               name: { color: "blueviolet" },
-              age: { color: "black" },
+              age: { color: "deeppink" },
             });
           }}
         >
@@ -90,10 +90,10 @@ export default function Header() {
           style={style.age}
           onClick={() => {
             setStyle({
-              des: { color: "black" },
-              prof: { color: "black" },
-              major: { color: "black" },
-              name: { color: "black" },
+              des: { color: "deeppink" },
+              prof: { color: "deeppink" },
+              major: { color: "deeppink" },
+              name: { color: "deeppink" },
               age: { color: "blueviolet" },
             });
           }}
