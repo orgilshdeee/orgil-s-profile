@@ -13,6 +13,11 @@ export default function Major() {
   return (
     <div id="major" className="container">
       <h1>{data?.major}</h1>
+      <img
+        src="https://c.tenor.com/aZrmTNdf9PgAAAAi/pepe-cry-pepe-sad.gif"
+        alt=""
+        id="pepecry"
+      />
     </div>
   );
 }
