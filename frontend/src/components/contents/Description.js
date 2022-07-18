@@ -20,9 +20,27 @@ export default function Description() {
         <h1 id="header" className="mt-5">
           {data?.header}
         </h1>
-        <p id="body" className="mt-5">
+        <p id="body" className="mt-5 mb-5">
           {data?.body}
         </p>
+        <div className="d-flex justify-content-between mt-4">
+          <div className="frontEnd">
+            <h4 className="ms-2">Front End</h4>
+            <ul>
+              {data?.exp.front.map((item) => {
+                return <li>{item}</li>;
+              })}
+            </ul>
+          </div>
+          <div className="backEnd">
+            <h4 className="ms-2">Front End</h4>
+            <ul>
+              {data?.exp.back.map((item) => {
+                return <li>{item}</li>;
+              })}
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );

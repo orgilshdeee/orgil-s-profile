@@ -1,4 +1,8 @@
 {
   "header": "Hi, I am Orgil, Student of Mstars Academy.",
-  "body": "Playing games, watching anime and solving problems is what i enjoy most."
+  "body": "Playing games, watching anime and solving problems is what i enjoy most.",
+  "exp": {
+    "front": ["HTML", "CSS", "React", "Bootstrap", "Typescript"],
+    "back": ["Node JS", "Express JS"]
+  }
 }

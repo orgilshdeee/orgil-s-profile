@@ -11,6 +11,12 @@
   height: 300px;
   background-color: white;
 }
+.backEnd {
+  margin-right: 150px;
+}
+.frontEnd {
+  margin-left: 60px;
+}
 #root {
   background-image: url("https://static.vecteezy.com/system/resources/previews/003/627/132/non_2x/nature-scene-background-with-rainbow-in-the-sky-free-vector.jpg");
   background-size: cover;
