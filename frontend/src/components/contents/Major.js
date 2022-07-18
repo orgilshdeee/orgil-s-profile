@@ -12,11 +12,7 @@ export default function Major() {
   return (
     <div id="major" className="container">
       <h1>{data?.major}</h1>
-      <img
-        src="https://c.tenor.com/aZrmTNdf9PgAAAAi/pepe-cry-pepe-sad.gif"
-        alt=""
-        id="pepecry"
-      />
+      <img src="http://localhost:3000/gifs/pepe-cry.gif" alt="" id="pepecry" />
     </div>
   );
 }
