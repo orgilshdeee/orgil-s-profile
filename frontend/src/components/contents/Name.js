@@ -11,7 +11,12 @@ export default function Name() {
   }, []);
   return (
     <div id="name" className="container">
-      <h1>{data?.name}</h1>
+      <img
+        src="http://localhost:3000/gifs/clown-pepe.gif"
+        alt="pic"
+        id="profImg"
+      />
+      <h1 className="mt-5 ms-3">{data?.name}</h1>
     </div>
   );
 }

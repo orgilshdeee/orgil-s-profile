@@ -17,14 +17,14 @@ export default function Description() {
           alt="pic"
           id="profImg"
         />
-        <h1 id="header" className="mt-5">
+        <h1 id="header" className="mt-5 ms-2">
           {data?.header}
         </h1>
         <p id="body" className="mt-5 mb-5">
           {data?.body}
         </p>
-        <div className="d-flex justify-content-between mt-4">
-          <div className="frontEnd">
+        <div className="d-flex justify-content-around mt-4 me-5 exp">
+          <div className="frontEnd mt-2">
             <h4 className="ms-2">Front End</h4>
             <ul>
               {data?.exp.front.map((item) => {
@@ -32,7 +32,7 @@ export default function Description() {
               })}
             </ul>
           </div>
-          <div className="backEnd">
+          <div className="backEnd mt-2">
             <h4 className="ms-2">Front End</h4>
             <ul>
               {data?.exp.back.map((item) => {

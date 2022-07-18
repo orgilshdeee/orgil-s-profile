@@ -11,7 +11,12 @@ export default function Age() {
   }, []);
   return (
     <div id="age" className="container">
-      <h1>{data?.age}</h1>
+      <img
+        src="http://localhost:3000/gifs/clown-pepe.gif"
+        alt="pic"
+        id="profImg"
+      />
+      <h1 className="mt-5 ages">{data?.age}</h1>
     </div>
   );
 }
