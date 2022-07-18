@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import "../styles/header.css";
 
 export default function Header() {
   const [style, setStyle] = useState({

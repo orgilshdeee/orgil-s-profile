@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { profileServices } from "../../services/service";
-import "../../styles/major.css";
 
 export default function Major() {
   const [data, setData] = useState();

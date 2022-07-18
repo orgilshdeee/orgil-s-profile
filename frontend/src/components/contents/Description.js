@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { profileServices } from "../../services/service";
-import "../../styles/description.css";
 
 export default function Description() {
   const [data, setData] = useState();
@@ -13,7 +12,11 @@ export default function Description() {
   return (
     <div id="descip" className="container d-flex">
       <div>
-        <img src={data?.img} alt="pic" id="profImg" />
+        <img
+          src="http://localhost:3000/gifs/clown-pepe.gif"
+          alt="pic"
+          id="profImg"
+        />
         <h1 id="header" className="mt-5">
           {data?.header}
         </h1>

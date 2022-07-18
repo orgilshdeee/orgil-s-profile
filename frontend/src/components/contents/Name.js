@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { profileServices } from "../../services/service";
-import "../../styles/name.css";
 
 export default function Name() {
   const [data, setData] = useState();

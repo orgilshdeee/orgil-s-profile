@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { profileServices } from "../../services/service";
-import "../../styles/profile.css";
 
 export default function Profile() {
   const [data, setData] = useState();
@@ -12,7 +11,11 @@ export default function Profile() {
   }, []);
   return (
     <div id="profile" className="container">
-      <img src={data?.img} alt="pic" id="profImg" />
+      <img
+        src="http://localhost:3000/gifs/clown-pepe.gif"
+        alt="pic"
+        id="profImg"
+      />
       <h1 className="mt-5">{data?.profile}</h1>
     </div>
   );

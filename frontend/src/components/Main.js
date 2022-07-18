@@ -10,32 +10,32 @@ export default function Main() {
     <div id="main">
       <div id="peepos">
         <img
-          src="https://c.tenor.com/Fh6neBHNDh4AAAAi/peepoclown.gif"
+          src="http://localhost:3000/gifs/peepoclown1.gif"
           alt="pic"
           id="peepo1"
         />
         <img
-          src="https://c.tenor.com/rLYacNeincQAAAAi/peepo-clown.gif"
+          src="http://localhost:3000/gifs/peepoclown2.gif"
           alt="peepo"
           id="peepo2"
         />
         <img
-          src="https://c.tenor.com/_hOeFNfH_58AAAAi/pepe-clown-clown-pepe.gif"
+          src="http://localhost:3000/gifs/peepoclown3.gif"
           alt="pepo"
           id="peepo3"
         />
         <img
-          src="https://c.tenor.com/Fh6neBHNDh4AAAAi/peepoclown.gif"
+          src="http://localhost:3000/gifs/peepoclown4.gif"
           alt="pic"
           id="peepo4"
         />
         <img
-          src="https://c.tenor.com/_hOeFNfH_58AAAAi/pepe-clown-clown-pepe.gif"
+          src="http://localhost:3000/gifs/peepoclown5.gif"
           alt="pepo"
           id="peepo5"
         />
         <img
-          src="https://c.tenor.com/iA1ChE86k_cAAAAi/pepe-peepo.gif"
+          src="http://localhost:3000/gifs/peepoclown6.gif"
           alt=""
           id="peepo6"
         />

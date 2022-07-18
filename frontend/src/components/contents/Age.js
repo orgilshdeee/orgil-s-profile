@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { profileServices } from "../../services/service";
-import "../../styles/age.css";
 
 export default function Age() {
   const [data, setData] = useState();
