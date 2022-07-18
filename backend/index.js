@@ -3,6 +3,8 @@ const express = require("express");
 const app = express();
 const fs = require("fs");
 const cors = require("cors");
+const PORT = process.env.PORT;
+app.use(express.static("public"));
 
 app.use(
   cors({
@@ -41,5 +43,5 @@ app.get("/age", cors(), (req, res) => {
   res.send(temp);
 });
 
-console.log(process.env.PORT);
-app.listen("3000");
+app.listen(PORT);
+console.log(`My app is running on ${PORT}`);
