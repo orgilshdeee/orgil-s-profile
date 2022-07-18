@@ -40,5 +40,6 @@ app.get("/age", cors(), (req, res) => {
   const temp = fs.readFileSync("./models/age.json", "utf-8");
   res.send(temp);
 });
+
 console.log(process.env.PORT);
 app.listen("3000");
