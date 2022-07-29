@@ -12,7 +12,11 @@ export default function Major() {
   return (
     <div id="major" className="container">
       <h1>{data?.major}</h1>
-      <img src="http://localhost:3000/gifs/pepe-cry.gif" alt="" id="pepecry" />
+      <img
+        src="http://35.164.143.162:3001/gifs/pepe-cry.gif"
+        alt=""
+        id="pepecry"
+      />
     </div>
   );
 }

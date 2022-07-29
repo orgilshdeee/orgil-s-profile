@@ -13,7 +13,7 @@ export default function Description() {
     <div id="descip" className="container d-flex">
       <div>
         <img
-          src="http://localhost:3000/gifs/clown-pepe.gif"
+          src="http://35.164.143.162:3001/gifs/clown-pepe.gif"
           alt="pic"
           id="profImg"
         />

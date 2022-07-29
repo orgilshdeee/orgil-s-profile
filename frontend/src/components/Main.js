@@ -10,32 +10,32 @@ export default function Main() {
     <div id="main">
       <div id="peepos">
         <img
-          src="http://localhost:3000/gifs/peepoclown1.gif"
+          src="http://35.164.143.162:3001/gifs/peepoclown1.gif"
           alt="pic"
           id="peepo1"
         />
         <img
-          src="http://localhost:3000/gifs/peepoclown2.gif"
+          src="http://35.164.143.162:3001/gifs/peepoclown2.gif"
           alt="peepo"
           id="peepo2"
         />
         <img
-          src="http://localhost:3000/gifs/peepoclown3.gif"
+          src="http://35.164.143.162:3001/gifs/peepoclown3.gif"
           alt="pepo"
           id="peepo3"
         />
         <img
-          src="http://localhost:3000/gifs/peepoclown4.gif"
+          src="http://35.164.143.162:3001/gifs/peepoclown4.gif"
           alt="pic"
           id="peepo4"
         />
         <img
-          src="http://localhost:3000/gifs/peepoclown5.gif"
+          src="http://35.164.143.162:3001/gifs/peepoclown5.gif"
           alt="pepo"
           id="peepo5"
         />
         <img
-          src="http://localhost:3000/gifs/peepoclown6.gif"
+          src="http://35.164.143.162:3001/gifs/peepoclown6.gif"
           alt=""
           id="peepo6"
         />

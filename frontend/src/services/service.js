@@ -1,5 +1,5 @@
 const description = async (credentials) => {
-  return await fetch("http://localhost:3000/", {
+  return await fetch("http://35.164.143.162:3001/", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -8,7 +8,7 @@ const description = async (credentials) => {
 };
 
 const name = async (credentials) => {
-  return await fetch("http://localhost:3000/name", {
+  return await fetch("http://35.164.143.162:3001/name", {
     method: "GET",
     headers: {
       "Content-type": "application/json",
@@ -17,7 +17,7 @@ const name = async (credentials) => {
 };
 
 const age = async (credentials) => {
-  return await fetch("http://localhost:3000/age", {
+  return await fetch("http://35.164.143.162:3001/age", {
     method: "GET",
     headers: {
       "Content-type": "application/json",
@@ -26,7 +26,7 @@ const age = async (credentials) => {
 };
 
 const major = async (credentials) => {
-  return await fetch("http://localhost:3000/major", {
+  return await fetch("http://35.164.143.162:3001/major", {
     method: "GET",
     headers: {
       "Content-type": "application/json",
@@ -35,7 +35,7 @@ const major = async (credentials) => {
 };
 
 const profile = async (credentials) => {
-  return await fetch("http://localhost:3000/profile", {
+  return await fetch("http://35.164.143.162:3001/profile", {
     method: "GET",
     headers: {
       "Content-type": "application/json",

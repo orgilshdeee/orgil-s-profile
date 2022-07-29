@@ -12,7 +12,7 @@ export default function Age() {
   return (
     <div id="age" className="container">
       <img
-        src="http://localhost:3000/gifs/clown-pepe.gif"
+        src="http://35.164.143.162:3001/gifs/clown-pepe.gif"
         alt="pic"
         id="profImg"
       />
